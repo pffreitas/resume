@@ -77,6 +77,10 @@ ul.skills {
 
 }
 
+ul.small{
+	font-size: 0.85em;
+}
+
 ul.skills li {
 	display: inline-block;
 	background-color: #eee;
@@ -102,14 +106,28 @@ ul.skills li {
 }
 
 .job-title {
-	margin: 12px 0 5px 0;
+	margin: 35px 0 5px 0;
 	padding: 0;
 	font-size: 0.9em;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
+.job-title.first{
+	margin-top: 14px;
+}
+
 .past-experience p.description {
 	margin: 0;
+	margin-bottom: 10px;
 	padding: 0;
+}
+
+.job-tech-involved{
+	color: #999;
+	font-size: 0.8em;
+	margin: 12px 0 5px 0;
+    padding: 0;
+    font-weight: bold;
+    text-transform: uppercase;
 }
