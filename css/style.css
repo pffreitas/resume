@@ -116,3 +116,34 @@ i.fa-sm {
   grid-template-columns: 1fr 200px;
   grid-gap: 40px;
 }
+
+.employment-history-period {
+  color: #7a7a7a;
+  font-size: 0.76em;
+}
+
+.employment-history-body {
+}
+
+.employment-history-term {
+  margin-bottom: 25px;
+}
+
+.employment-history {
+  margin-bottom: 60px;
+}
+
+h3 {
+  line-height: 10px;
+  margin-bottom: 25px;
+}
+
+h4 {
+  line-height: 10px;
+  margin-bottom: 15px;
+}
+
+h4 p {
+  color: #7a7a7a;
+  font-size: 0.76em;
+}
